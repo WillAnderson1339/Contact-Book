@@ -8,7 +8,7 @@ function ContactCard( {contact} ) {
             <h3>{contact.name}</h3>
             <div className="info-group">
                 <img src='/Phone.png' alt='phone image' />
-                <span>{contact.phone}</span>
+                <span>phone: {contact.phone}</span>
             </div>
             <div className="info-group">
                 <img src='/Email.png' alt='email image' />
